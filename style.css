@@ -1,0 +1,21 @@
+body{
+    background: url(./img/bgbody.jpg) fixed no-repeat;
+    background-size: cover;
+}
+
+.card{
+    box-shadow: 2px 2px 10px #000; /* fel-le elmosódás, szín */
+    background: rgba(0, 0, 0, .5) !important;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    position: sticky !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: !important;
+    z-index: !important;
+}
